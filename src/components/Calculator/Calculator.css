@@ -95,3 +95,34 @@
   opacity: 0.7;
   font-size: 1.3rem;
 }
+
+@media screen and (max-width: 768px) {
+  .calcContainer {
+    height: auto;
+    flex-direction: column;
+    gap: 50px;
+    width: 85%;
+  }
+  .leftInfo {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .leftInfo .topLeftInfo {
+    align-items: center;
+  }
+
+  .rightInfo {
+    width: 100%;
+  }
+  .rightInfo p {
+    font-size: 1.2rem;
+  }
+  .rightInfo b {
+    font-size: 1.4rem;
+  }
+  .rightInfo b span {
+    font-size: 1.1rem;
+  }
+}
